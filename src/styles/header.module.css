@@ -1,0 +1,18 @@
+.navContainer {
+    li {
+        a {
+            position: relative;
+
+            &:focus::before{
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 4px;
+                background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+                z-index: 99;
+            }
+        }
+    }
+}
