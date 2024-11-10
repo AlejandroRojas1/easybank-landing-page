@@ -1,8 +1,12 @@
 
-const Button = () => {
+type MoreStyles = {
+    moreStyles: string
+}
+
+const Button: React.FC<MoreStyles> = ({moreStyles}) => {
     return (
         <button
-            className="my-5 text-white font-medium rounded-full p-3 px-6 bg-gradient-to-r from-limeGreen to-brightCyan hover:opacity-65"
+            className={`my-5 text-white font-medium rounded-full p-3 px-6 bg-gradient-to-r from-limeGreen to-brightCyan hover:opacity-65 ${moreStyles}`}
         >Request Invite</button>
     )
 }
