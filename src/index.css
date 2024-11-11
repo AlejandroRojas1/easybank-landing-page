@@ -14,7 +14,9 @@ body {
     padding: 0;
     font-size: 18px;
     background-color: hsl(0, 0%, 98%);
-    background-image:  url(/assets/image-mockups.png), url(/assets/bg-intro-desktop.svg);
-    background-repeat: no-repeat, no-repeat;
-    background-position: 50rem 0, 37rem -11rem;
+    background-image: url(/assets/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 37rem -11rem;
 }
+
+/* <img className='absolute -top-24 -right-28' src="/assets/image-mockups.png" alt="mockups" /> */

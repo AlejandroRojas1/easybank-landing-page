@@ -4,7 +4,7 @@ import styles from '../styles/header.module.css'
 const Header = () => {
     return (
         <>
-            <nav className="w-full bg-white">
+            <nav className="w-full bg-white relative z-20">
                 <div className="mx-40 flex flex-row justify-between">
                     <img className="object-contain py-5" src="/assets/logo.svg" alt="logo" />
                     <ul className={`${styles.navContainer} min-w-2/6 flex justify-evenly items-center text-grayishBlue`}>
@@ -24,7 +24,7 @@ const Header = () => {
                             <a className="h-full flex px-5 items-center" href="#"><span>Careers</span></a>
                         </li>
                     </ul>
-                    <Button />
+                    <Button moreStyles=''/>
                 </div>
             </nav>
         </>
