@@ -1,0 +1,15 @@
+.heroContainer {
+    position: relative;
+    .illustration {
+        position: absolute;
+        height: 60rem;
+        width: 60rem;
+        z-index: 10;
+        right: -13rem;
+        top: -7rem;
+        background-image: url('/assets/image-mockups.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+}
