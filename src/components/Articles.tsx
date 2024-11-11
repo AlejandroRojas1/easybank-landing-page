@@ -47,7 +47,7 @@ const Articles = () => {
                     <article key={article.key} className="w-1/4 bg-white rounded-md overflow-hidden">
                         <img src={article.img} alt="money" className="w-full h-1/2 mb-2"/>
                         <p className="text-grayishBlue text-xs mx-5 my-4">{article.author}</p>
-                        <h3 className="text-lg font-normal leading-5 mx-5 ">{article.title}</h3>
+                        <h3 className="text-lg font-normal leading-5 mx-5 "><a href="#" className="hover:text-limeGreen">{article.title}</a></h3>
                         <p className="text-grayishBlue mx-5 mt-3 mb-6 text-sm">{article.description}</p>
                     </article>
                 ))}
