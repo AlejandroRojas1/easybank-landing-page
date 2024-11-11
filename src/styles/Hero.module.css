@@ -3,13 +3,13 @@
     .illustration {
         position: absolute;
         height: 60rem;
-        width: 60rem;
+        width: 50%;
         z-index: 10;
-        right: -13rem;
+        right: 0;
         top: -7rem;
         background-image: url('/assets/image-mockups.png');
         background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
+        background-size: cover;
+        background-position: 3rem -1rem;
     }
 }
