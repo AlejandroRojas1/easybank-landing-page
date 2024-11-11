@@ -1,0 +1,5 @@
+.social {
+    a:hover path {
+        fill: hsl(136, 65%, 59%);
+    }
+}
