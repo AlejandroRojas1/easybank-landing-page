@@ -35,16 +35,16 @@ const featuresDates: FeaturesTypes[] = [
 
 const Features = () => {
   return (
-    <section className="bg-lightGrayishBlue py-20 px-40 relative z-0">
-        <h2 className="text-4xl text-darkBlue mb-8">Why choose Easybank?</h2>
-        <p className="text-grayishBlue w-2/3 mb-11">We leverage Open Banking to turn your bank account into your financial hub. Control 
+    <section className="bg-lightGrayishBlue py-20 px-3 sm:px5 md:px-16 lg:px-28 xl:px-40 relative z-0">
+        <h2 className="md:text-center lg:text-start text-4xl text-darkBlue mb-8">Why choose Easybank?</h2>
+        <p className="md:text-center lg:text-start md:w-100 text-grayishBlue lg:w-2/3 mb-11">We leverage Open Banking to turn your bank account into your financial hub. Control 
         your finances like never before.</p>
-        <div className="flex justify-between gap-5">
+        <div className="md:grid md:grid-rows-2 md:grid-cols-2 lg:flex lg:justify-between gap-5">
             {featuresDates.map(feature =>(
-                <div key={feature.key} className="flex flex-col items-start w-1/4">
+                <div key={feature.key} className="flex flex-col md:mx-auto md:items-center md:w-1/2 lg:items-start lg:w-1/4">
                     <img src={feature.img} alt={feature.title} className="mb-10"/>
-                    <h3 className="mb-5 text-2xl">{feature.title}</h3>
-                    <p className="text-grayishBlue text-base">{feature.description}</p>
+                    <h3 className="mb-5 md:text-xl lg:text-2xl ">{feature.title}</h3>
+                    <p className="text-grayishBlue md:text-center lg:text-start">{feature.description}</p>
                 </div>
             ))}
         </div>

@@ -40,12 +40,12 @@ const articlesData: ArticlesTypes[] = [
 
 const Articles = () => {
     return (
-        <section className="mx-40 my-24 h-min bg-veryLightGray">
-            <h2 className="mt-24 mb-14 text-4xl">Latest Articles</h2>
-            <div className="flex justify-between gap-5">
-            {articlesData.map(article => (
-                    <article key={article.key} className="w-1/4 bg-white rounded-md overflow-hidden">
-                        <img src={article.img} alt="money" className="w-full h-1/2 mb-2"/>
+        <section className="mx-3 sm:mx-5 md:mx-16 lg:mx-28 xl:mx-40 my-24 h-min bg-veryLightGray">
+            <h2 className="md:text-center lg:text-start mt-24 mb-14 text-4xl">Latest Articles</h2>
+            <div className="md:grid md:grid-rows-2 md:grid-cols-2 lg:flex lg:justify-between gap-5">
+                {articlesData.map(article => (
+                    <article key={article.key} className="w-3/4 md:mx-auto md:my-7 lg:w-1/4 bg-white rounded-md overflow-hidden">
+                        <img src={article.img} alt="money" className="w-full h-1/2 mb-2" />
                         <p className="text-grayishBlue text-xs mx-5 my-4">{article.author}</p>
                         <h3 className="text-lg font-normal leading-5 mx-5 "><a href="#" className="hover:text-limeGreen">{article.title}</a></h3>
                         <p className="text-grayishBlue mx-5 mt-3 mb-6 text-sm">{article.description}</p>

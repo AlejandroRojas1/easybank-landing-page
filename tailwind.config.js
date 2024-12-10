@@ -8,6 +8,7 @@ export default {
     extend: {},
     colors: {
       // Primary
+      black: '#000000',
       darkBlue: 'hsl(233, 26%, 24%)',
       limeGreen: 'hsl(136, 65%, 51%)',
       brightCyan: 'hsl(192, 70%, 51%)',
@@ -16,7 +17,7 @@ export default {
       lightGrayishBlue: 'hsl(220, 16%, 96%)',
       veryLightGray: 'hsl(0, 0%, 98%)',
       white: 'white'
-    }
+    },
   },
   plugins: [],
 }

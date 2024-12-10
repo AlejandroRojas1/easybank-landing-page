@@ -3,7 +3,7 @@ import Button from './Button'
 
 const Footer = () => {
     return (
-        <footer className="w-full px-40 py-10 bg-darkBlue flex relative">
+        <footer className="w-full px-3 sm:px5 md:px-16 lg:px-28 xl:px-40 py-10 bg-darkBlue flex relative">
             <div className="flex w-1/2 justify-between">
                 <div className="h-28 w-40 flex flex-col justify-between ">
                     <svg xmlns="http://www.w3.org/2000/svg" width="139" height="20" className="me-4">
