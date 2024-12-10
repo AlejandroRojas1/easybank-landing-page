@@ -1,6 +1,8 @@
 # Landing page de Easy Bank
 Landing page de servicios bancarios 
 
+![preview](/public/assets/proyect3.jpg)
+
 ## si te interesa utilizar el código
 
 1. clonar el repositorio 
