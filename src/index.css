@@ -18,3 +18,8 @@ body {
     background-repeat: no-repeat;
     background-position: 37rem -11rem;
 }
+@media (width <= 880px) {
+    body {
+        background-position: 0 -30rem;
+    }
+}
