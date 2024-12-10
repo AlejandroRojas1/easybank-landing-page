@@ -1,5 +1,74 @@
-.social {
-    a:hover path {
-        fill: hsl(136, 65%, 59%);
+.footer {
+    display: flex;
+
+    .navFooterContainer {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        .socialContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+            .social {
+                a:hover path {
+                    fill: hsl(136, 65%, 59%);
+                }
+            }
+
+        }
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            width: 50%;
+            
+            ul {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        }
+    }
+    .button {
+        position: absolute;
+        top: 1.25rem;
+        right: 10rem;
+    }
+
+
+}
+
+
+@media(width <=830px) {
+    .footer {
+        background-color: red;
+
+        .navFooterContainer {
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 5rem;
+            width: 100%;
+            .socialContainer {
+                justify-content: center;
+                gap: 1rem;
+            }
+            .nav {
+                flex-direction: column;
+                align-items: center;
+                ul {
+                    align-items: center;
+                    gap: 1rem;
+                }
+                ul:first-child {
+                    margin-bottom: 1.5rem;
+                }
+            }
+        }
+        .button {
+            top: auto;
+            bottom: 0;
+            right: 30%;
+        }
     }
 }
